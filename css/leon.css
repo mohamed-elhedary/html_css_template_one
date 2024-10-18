@@ -190,6 +190,9 @@ body {
     text-align: center;
     padding: 20px;
 }
+.features .feat:hover {
+    transform: scale(1.1);
+}
 .features .feat h3 {
     font-size: 20px;
     font-weight: 800;
@@ -216,6 +219,9 @@ body {
 .services .services-content .srv {
     display: flex;
     margin-bottom: 40px;
+}
+.services .services-content .srv:hover {
+    transform: scale(1.1);
 }
 @media (max-width: 797px) {
     .services .services-content .srv {
@@ -272,6 +278,9 @@ body {
 }
 .portfolio .portfolio-content .card {
     background-color: white;
+}
+.portfolio .portfolio-content .card:hover {
+    transform: scale(1.1);
 }
 .portfolio .portfolio-content img {
     width: 100%;
